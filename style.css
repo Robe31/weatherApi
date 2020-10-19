@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card img {
+    width: 200px;
+}
+.tempBox ul {
+    list-style: none;
+    
+}
