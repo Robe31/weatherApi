@@ -4,7 +4,7 @@ const input = document.querySelector('#zipForm');
 const subBtn = document.querySelector('.subBtn');
 
 subBtn.addEventListener('click', e => {
-    const url = `http://api.openweathermap.org/data/2.5/weather?zip=${input.value}&appid=${API_KEY}&units=imperial`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?zip=${input.value}&appid=${API_KEY}&units=imperial`;
 
     fetch(url)
     .then(data => data.json())
